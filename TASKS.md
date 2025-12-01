@@ -1,0 +1,108 @@
+# Webcurry.co Redesign — Task Checklist
+
+- [ ] Create TODO.MD with timestamped items (status, brief) and keep updated.
+- [ ] Confirm project scope, goals, and success metrics with stakeholder.
+- [ ] Document current site URL(s) and access paths.
+- [ ] Inventory all existing site pages with URLs and screenshots.
+- [ ] Capture page structures: hero, sections, CTAs, forms, media, footer items.
+- [ ] Extract all copy from each page for reference.
+- [ ] Collect all images; crop for reuse; name by source page.
+- [ ] Gather all logo variants (SVG/PNG, dark/light, favicon).
+- [ ] Record business info: contact numbers, emails, addresses, hours, social links.
+- [ ] Identify all current colour codes and typography usage.
+- [ ] Document current interactions/features (menus, sliders, popups, chat, tools).
+- [ ] Note current performance/SEO/accessibility issues.
+- [ ] Define proposed colour theme for the new site.
+- [ ] Draft redesign plan summarizing IA, layouts, and priority improvements.
+- [ ] Validate plan with stakeholder (or log assumptions if unavailable).
+
+- [ ] Choose and document tech stack (suggest: TypeScript + modern framework).
+- [ ] Record hosting/deployment targets and environment strategy (preview/prod).
+- [ ] Specify data/content source (CMS vs. file-based) and access needs.
+- [ ] Define routing/IA for new site (Home, Services, Portfolio/Case Studies, About, Blog/News, Contact, Legal, Tools).
+- [ ] Plan full-width layout system and grid/breakpoints.
+- [ ] Decide on component library/patterns and styling approach.
+- [ ] Define tokens (color, type, spacing, radii, shadows).
+- [ ] Plan SEO approach (meta, OG/Twitter, sitemap, robots).
+- [ ] Plan accessibility approach (focus states, semantics, ARIA, keyboard support).
+- [ ] Plan performance budgets and media optimization strategy.
+- [ ] Plan analytics and consent handling.
+- [ ] Plan form handling, validation, spam/bot protection.
+- [ ] Plan WhatsApp integration entry points (header/footer/CTA).
+- [ ] Plan chatbot approach/provider and placement.
+- [ ] Plan popups usage (timing/trigger, frequency capping, exit-intent).
+- [ ] Plan sliders/carousels (content, controls, accessibility).
+- [ ] Plan mega menu structure and content sources.
+- [ ] Plan niche-specific tools (define at least 1–2 useful utilities).
+- [ ] Plan error logging/monitoring approach if allowed.
+
+- [ ] Initialize repository structure and base configs (package manager, TS config).
+- [ ] Add lint/format tooling (ESLint, Prettier) and scripts.
+- [ ] Add basic CI placeholder for lint/test/build.
+- [ ] Add README skeleton with run/test/build instructions.
+- [ ] Add architecture/approach brief (include Architecture-First Development Principles).
+- [ ] Add claude.md update near top with Architecture-First principles.
+- [ ] Add Git config instructions for personas and access control.
+- [ ] Document Intelligence Access Love and Hate system application steps.
+- [ ] Create environment variable template (.env.example) with needed keys.
+- [ ] Set up layout shell (header, footer, global styles, grid, theme tokens).
+- [ ] Implement navigation with mega menu structure.
+- [ ] Implement responsive header with WhatsApp CTA and contact info.
+- [ ] Implement footer with contact/social/legal links and address info.
+- [ ] Build hero templates with CTA buttons and optional media.
+- [ ] Build reusable section components (split layout, feature list, stats).
+- [ ] Build card components for services, case studies, blog summaries, tools.
+- [ ] Implement testimonial/social proof components.
+- [ ] Implement pricing/engagement models section (if applicable).
+- [ ] Add CTA components with variants (primary/secondary/ghost).
+- [ ] Implement slider/carousel component with keyboard and SR support.
+- [ ] Implement popup component with frequency capping and close controls.
+- [ ] Integrate chatbot placeholder/provider hook.
+- [ ] Integrate WhatsApp link/button with tracking-friendly URL.
+- [ ] Implement mega menu content (services, resources, tools).
+- [ ] Build “useful tools” pages/sections (define functions and UI).
+
+- [ ] Home page: hero, value props, services preview, proof, CTA, chatbot/popup entry if desired.
+- [ ] Services page(s): detailed service cards/sections with CTAs.
+- [ ] Portfolio/Case Studies page: list view with filters (if data permits).
+- [ ] Case Study template: problem/solution/results/metrics, media, testimonial.
+- [ ] About page: story, team highlights, credibility markers.
+- [ ] Blog/News index: pagination or lazy load, tags/dates.
+- [ ] Blog post template: rich text, images, code block style, share meta.
+- [ ] Contact page: form with validation, success/error states, map/region note.
+- [ ] Tools page(s): implement niche tools with input/validation/results.
+- [ ] Legal pages: Privacy, Terms; link in footer.
+- [ ] 404/500 pages with navigation back to main flows.
+
+- [ ] Wire content source (CMS SDK or file loader) and data models.
+- [ ] Seed sample content for all page types.
+- [ ] Implement sitemap and robots.txt with environment-aware rules.
+- [ ] Add structured data (Organization, BreadcrumbList, BlogPosting).
+- [ ] Add meta tags per page (title/description/OG/Twitter); use canonical URLs.
+- [ ] Optimize images (responsive sizes, lazy loading, formats).
+- [ ] Add favicon/app icons/social preview images.
+- [ ] Implement consent banner if analytics/trackers present.
+- [ ] Add error boundary and loading states where framework supports it.
+- [ ] Harden form spam protection (honeypot/captcha/rate limit strategy).
+- [ ] Wire email/notification delivery for leads; log/store submissions if allowed.
+- [ ] Verify WhatsApp/chatbot/popup/megamenu behaviors across breakpoints.
+- [ ] Validate performance against budgets (LCP/CLS/INP proxies).
+- [ ] Run accessibility checks (keyboard, SR, color contrast).
+- [ ] Run SEO checks (links, meta, structured data validation).
+
+- [ ] Add unit tests for utilities/components (menu, sliders, forms).
+- [ ] Add smoke tests for key pages rendering.
+- [ ] Add e2e tests: home → services → contact submission flow.
+- [ ] Add e2e tests: blog navigation and post rendering.
+- [ ] Add e2e tests: tools flow and WhatsApp CTA click-through.
+- [ ] Document test commands and expectations.
+
+- [ ] Prepare deployment configuration for target host (commands, env vars).
+- [ ] Create production build and validate locally.
+- [ ] Set up preview environment workflow.
+- [ ] Document monitoring/uptime/error tracking recommendations.
+- [ ] Finalize README with stack choice, scripts, deploy steps, and access notes.
+- [ ] Add OPERATIONS/HANDOFF notes (accounts, env vars, integrations, Git access).
+- [ ] Summarize decisions/trade-offs and open issues.
+- [ ] Confirm all links/forms/CTAs point to correct destinations.
+- [ ] Final QA pass for accessibility, performance, and SEO; log results.

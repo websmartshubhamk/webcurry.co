@@ -143,15 +143,15 @@ footer.section {
 }
 
 .pill-success {
-  background: rgba(80, 211, 138, 0.12);
-  border: 1px solid rgba(80, 211, 138, 0.4);
-  color: #d6ffe9;
+  background: rgba(21, 160, 120, 0.18);
+  border: 1px solid rgba(21, 160, 120, 0.55);
+  color: #0f3a2b;
 }
 
 .pill-warm {
-  background: rgba(243, 179, 91, 0.14);
-  border: 1px solid rgba(243, 179, 91, 0.4);
-  color: #fff5e8;
+  background: rgba(243, 179, 91, 0.18);
+  border: 1px solid rgba(243, 179, 91, 0.55);
+  color: #3b2a0f;
 }
 
 .muted {
@@ -173,10 +173,10 @@ footer.section {
   display: inline-block;
   padding: 0.35rem 0.7rem;
   border-radius: 10px;
-  background: rgba(108, 140, 255, 0.15);
-  color: #dfe7ff;
+  background: #e8f0ff;
+  color: #0a1a2f;
   font-size: 0.9rem;
-  border: 1px solid rgba(108, 140, 255, 0.35);
+  border: 1px solid #d2def5;
 }
 
 .list {

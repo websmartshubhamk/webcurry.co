@@ -19,13 +19,13 @@ export default function Home() {
           style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "2rem", alignItems: "center" }}
         >
           <div>
-            <span className="pill pill-success">Clinical-grade polish</span>
+            <span className="pill pill-success">Conversion-first build</span>
             <h1 style={{ fontSize: "2.8rem", marginBottom: "0.75rem", lineHeight: 1.7, fontWeight: 650 }}>
-              Websites that sell your offer with clear navigation, chat, and WhatsApp handoffs.
+              Websites that explain your offer fast and turn visitors into leads or customers.
             </h1>
             <p className="muted" style={{ color: "#2d3b52" }}>
               We plan your structure, then build in Next.js with mega menus, chat/WhatsApp, and fast pages so visitors know what you do and how to
-              buy or book. Clean visuals, CRO-focused copy, and reliable integrations.
+              buy or book. Clean visuals, sales-focused copy, and dependable integrations.
             </p>
             <div className="flex" style={{ flexWrap: "wrap" }}>
               <Link className="btn btn-primary" href="/contact">
@@ -54,11 +54,11 @@ export default function Home() {
             }}
           >
             <span className="badge" style={{ alignSelf: "flex-start" }}>
-              Preview
+              Hero preview
             </span>
-            <h3 style={{ margin: 0 }}>Pharma-clean hero</h3>
+            <h3 style={{ margin: 0 }}>Sales-first hero</h3>
             <p className="muted" style={{ color: "#2d3b52" }}>
-              White canvas, bright accent, and clear CTAs. Swap in brand imagery (team, lab, product) to mirror the phamilypharma aesthetic.
+              Simple headline, proof, and two CTAs (book a call or WhatsApp). Swap in your offer, a product or team image, and a clear value line.
             </p>
             <div className="flex" style={{ flexWrap: "wrap" }}>
               <div className="pill">Mega menu</div>

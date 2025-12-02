@@ -6,10 +6,10 @@
   --brand: #0f63c2;
   --brand-strong: #0a4e9c;
   --accent: #0fb8b1;
-  --border: #e1e8f2;
+  --border: #d6e2f1;
   --success: #1d9d74;
   --danger: #e45462;
-  --shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
+  --shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
   color-scheme: light;
 }
 
@@ -67,18 +67,18 @@ img {
 }
 
 .section {
-  padding: 4rem 0;
+  padding: 4.5rem 0;
 }
 
 .section + .section {
-  border-top: 1px solid var(--border);
+  border-top: 1px solid #e9eff7;
 }
 
 .card {
   background: var(--panel);
   border: 1px solid var(--border);
   border-radius: 16px;
-  padding: 1.5rem;
+  padding: 1.75rem 1.6rem;
   box-shadow: var(--shadow);
 }
 
@@ -117,7 +117,7 @@ img {
   background: #ffffff;
   color: var(--text);
   border-color: var(--border);
-  box-shadow: 0 4px 14px rgba(15, 99, 194, 0.08);
+  box-shadow: 0 2px 8px rgba(15, 99, 194, 0.06);
 }
 
 .btn:hover {
@@ -135,6 +135,11 @@ img {
   border: 1px solid rgba(15, 23, 42, 0.05);
   border-radius: 16px;
   backdrop-filter: blur(12px);
+}
+
+footer.section {
+  padding-top: 3rem;
+  border-top: 1px solid #e9eff7;
 }
 
 .pill-success {

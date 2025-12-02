@@ -20,7 +20,7 @@ export default function Home() {
         >
           <div>
             <span className="pill pill-success">Clinical-grade polish</span>
-            <h1 style={{ fontSize: "2.8rem", marginBottom: "0.75rem" }}>
+            <h1 style={{ fontSize: "2.8rem", marginBottom: "0.75rem", lineHeight: 1.7, fontWeight: 650 }}>
               Crisp, full-width experiences with clear navigation, chat, and WhatsApp handoffs.
             </h1>
             <p className="muted">
@@ -45,7 +45,7 @@ export default function Home() {
             className="card"
             style={{
               minHeight: "320px",
-              background: "linear-gradient(140deg, #f8fbff, #e7f2ff)",
+              background: "linear-gradient(140deg, #fbfdff, #eaf2ff)",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
@@ -64,6 +64,9 @@ export default function Home() {
               <div className="pill">Mega menu</div>
               <div className="pill">Chatbot</div>
               <div className="pill">WhatsApp</div>
+              <div style={{ marginTop: "1rem", width: "100%", background: "#f2f6fd", border: "1px solid #d8e6f7", borderRadius: "14px", height: "120px" }}>
+                {/* image/illustration placeholder */}
+              </div>
             </div>
           </div>
         </div>

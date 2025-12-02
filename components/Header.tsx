@@ -12,8 +12,8 @@ export function Header() {
   const [megaOpen, setMegaOpen] = useState(false);
 
   return (
-    <header style={{ position: "sticky", top: 0, zIndex: 50, background: "var(--panel)", boxShadow: "0 10px 30px rgba(15,23,42,0.08)" }}>
-      <div className="container" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0.5rem 0", fontSize: "0.95rem" }}>
+    <header style={{ position: "sticky", top: 0, zIndex: 50, background: "var(--panel)", boxShadow: "0 10px 26px rgba(15,23,42,0.07)" }}>
+      <div className="container" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0.4rem 0", fontSize: "0.95rem" }}>
         <div className="muted" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
           <span>Trusted delivery for modern web</span>
           <a href={whatsappLink} className="tag" target="_blank" rel="noreferrer">
@@ -21,13 +21,13 @@ export function Header() {
           </a>
         </div>
         <div style={{ display: "flex", gap: "0.75rem", alignItems: "center" }}>
-          <ThemeToggle />
           <a className="tag" href="mailto:hello@webcurry.co">
             hello@webcurry.co
           </a>
+          <ThemeToggle />
         </div>
       </div>
-      <div className="container" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0.75rem 0" }}>
+      <div className="container" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0.65rem 0" }}>
         <Link href="/" style={{ fontWeight: 700, fontSize: "1.2rem", letterSpacing: "0.01em" }}>
           Webcurry<span style={{ color: "var(--brand)" }}>.co</span>
         </Link>

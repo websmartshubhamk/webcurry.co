@@ -23,7 +23,7 @@ export default function Home() {
             <h1 style={{ fontSize: "2.8rem", marginBottom: "0.75rem", lineHeight: 1.7, fontWeight: 650 }}>
               Crisp, full-width experiences with clear navigation, chat, and WhatsApp handoffs.
             </h1>
-            <p className="muted">
+            <p className="muted" style={{ color: "#2d3b52" }}>
               We plan IA first, then build in Next.js with mega menus, chatbots, popups, sliders, and tools that feel purposeful—not noisy. Clean,
               trustworthy visuals inspired by phamilypharma, tuned for performance and CRO.
             </p>
@@ -45,7 +45,7 @@ export default function Home() {
             className="card"
             style={{
               minHeight: "320px",
-              background: "linear-gradient(140deg, #fbfdff, #eaf2ff)",
+              background: "linear-gradient(140deg, #ffffff, #eff4ff)",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
@@ -57,7 +57,7 @@ export default function Home() {
               Preview
             </span>
             <h3 style={{ margin: 0 }}>Pharma-clean hero</h3>
-            <p className="muted">
+            <p className="muted" style={{ color: "#2d3b52" }}>
               White canvas, bright accent, and clear CTAs. Swap in brand imagery (team, lab, product) to mirror the phamilypharma aesthetic.
             </p>
             <div className="flex" style={{ flexWrap: "wrap" }}>

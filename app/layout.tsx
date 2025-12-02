@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-
-const font = Plus_Jakarta_Sans({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
   title: "Webcurry.co — Modern web builds with CRO, chat, and tools",
@@ -14,7 +11,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={font.className}>
+      <body>
         <Header />
         <main>{children}</main>
         <Footer />

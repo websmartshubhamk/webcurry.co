@@ -21,11 +21,11 @@ export default function Home() {
           <div>
             <span className="pill pill-success">Clinical-grade polish</span>
             <h1 style={{ fontSize: "2.8rem", marginBottom: "0.75rem", lineHeight: 1.7, fontWeight: 650 }}>
-              Crisp, full-width experiences with clear navigation, chat, and WhatsApp handoffs.
+              Websites that sell your offer with clear navigation, chat, and WhatsApp handoffs.
             </h1>
             <p className="muted" style={{ color: "#2d3b52" }}>
-              We plan IA first, then build in Next.js with mega menus, chatbots, popups, sliders, and tools that feel purposeful—not noisy. Clean,
-              trustworthy visuals inspired by phamilypharma, tuned for performance and CRO.
+              We plan your structure, then build in Next.js with mega menus, chat/WhatsApp, and fast pages so visitors know what you do and how to
+              buy or book. Clean visuals, CRO-focused copy, and reliable integrations.
             </p>
             <div className="flex" style={{ flexWrap: "wrap" }}>
               <Link className="btn btn-primary" href="/contact">

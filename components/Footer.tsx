@@ -7,7 +7,7 @@ export function Footer() {
         <div>
           <h3>Webcurry.co</h3>
           <p className="muted">
-            Architecture-first builds for marketing and product sites with modern UX patterns, chat/WhatsApp, and CRO discipline.
+            Conversion-first web development: crisp marketing sites, modern UX patterns, and clean integrations that capture every lead.
           </p>
           <div className="flex" style={{ flexWrap: "wrap", gap: "0.5rem" }}>
             <a className="tag" href="mailto:hello@webcurry.co">

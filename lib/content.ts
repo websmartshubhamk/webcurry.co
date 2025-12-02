@@ -1,62 +1,62 @@
 export const services = [
   {
-    title: "Full-stack Web Builds",
-    description: "Composable architectures for marketing and product experiences that ship fast and scale cleanly.",
-    items: ["Next.js app router", "Headless CMS wiring", "Design system driven"],
-    cta: "Plan a build"
+    title: "Custom Websites",
+    description: "High-converting marketing sites tailored to your offer, with crisp UX and production-ready code.",
+    items: ["Next.js builds", "Design system first", "CMS or content files"],
+    cta: "Plan my site"
   },
   {
-    title: "Growth UX & CRO",
-    description: "Conversion-first landing systems with experimentation hooks and analytics discipline.",
-    items: ["A/B test ready", "Performance tuned", "SEO essentials"],
-    cta: "Optimize journeys"
+    title: "Conversion & Speed",
+    description: "Make pages faster and clearer—so more visitors become leads or customers.",
+    items: ["CRO playbook", "Performance tuning", "SEO hygiene"],
+    cta: "Optimize my funnel"
   },
   {
-    title: "Integrations & Automations",
-    description: "WhatsApp, chatbots, CRMs, calendaring, and data flows that actually stay in sync.",
-    items: ["Lead routing", "Ops automations", "Webhook reliability"],
-    cta: "Connect the stack"
+    title: "Integrations",
+    description: "Wire chat, WhatsApp, CRM, and booking so every lead is captured and routed.",
+    items: ["Chat/WhatsApp", "CRM + email", "Booking & automations"],
+    cta: "Connect my stack"
   }
 ];
 
 export const caseStudies = [
   {
-    title: "SaaS Launch Pad",
-    result: "43% lift in trial signups in 6 weeks",
-    summary: "Rebuilt the marketing stack with Next.js, headless CMS, and CRO playbook.",
-    tags: ["Next.js", "CRO", "Analytics"]
+    title: "Lead Gen Revamp",
+    result: "2.1x more qualified leads",
+    summary: "Rebuilt the site with focused messaging, faster pages, and clearer CTAs.",
+    tags: ["Web dev", "CRO", "Performance"]
   },
   {
-    title: "Services Lead Engine",
-    result: "2.3x qualified leads QoQ",
-    summary: "Implemented mega menu IA, WhatsApp handoff, and chatbot triage to routing rules.",
-    tags: ["IA", "WhatsApp", "Chatbot"]
+    title: "Services Site Refresh",
+    result: "38% lift in contact submissions",
+    summary: "Navigation, mega menu, chat, and WhatsApp tuned for conversion.",
+    tags: ["IA", "Chat/WA", "UX"]
   },
   {
-    title: "Content Hub Refresh",
-    result: "38% more organic traffic",
-    summary: "Performance-focused blog system with schema, lazy media, and interactive tools.",
-    tags: ["SEO", "Schema", "Interactive"]
+    title: "Content Hub Build",
+    result: "32% more organic traffic",
+    summary: "Fast Next.js blog with schema, lazy media, and reusable content blocks.",
+    tags: ["Next.js", "SEO", "Content"]
   }
 ];
 
 export const blogPosts = [
   {
-    title: "Architecture-first web delivery",
+    title: "Websites that actually sell",
     tag: "Playbook",
-    summary: "How we blueprint IA, integrations, and observability before touching pixels.",
+    summary: "Our checklist for turning a brochure site into a revenue-focused experience.",
     href: "#"
   },
   {
-    title: "Designing mega menus that convert",
-    tag: "UX",
-    summary: "Patterns for service-heavy sites without overwhelming the visitor.",
+    title: "Speed + clarity = conversions",
+    tag: "Performance",
+    summary: "Why faster loads and simpler flows win more leads.",
     href: "#"
   },
   {
-    title: "When to add chatbots vs. humans",
+    title: "Chat, WhatsApp, and forms",
     tag: "CX",
-    summary: "Decision grid to keep automation helpful and on-brand.",
+    summary: "How to choose the right contact entry points and route them cleanly.",
     href: "#"
   }
 ];

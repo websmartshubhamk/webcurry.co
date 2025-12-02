@@ -35,8 +35,7 @@
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: radial-gradient(circle at 12% 18%, rgba(15, 99, 194, 0.05), transparent 30%),
-    radial-gradient(circle at 80% 0%, rgba(15, 184, 177, 0.05), transparent 28%), var(--bg);
+  background: var(--bg);
   color: var(--text);
   line-height: 1.65;
 }
@@ -143,15 +142,15 @@ footer.section {
 }
 
 .pill-success {
-  background: rgba(21, 160, 120, 0.18);
-  border: 1px solid rgba(21, 160, 120, 0.55);
-  color: #0f3a2b;
+  background: #0fa06d;
+  border: 1px solid #0d865c;
+  color: #ffffff;
 }
 
 .pill-warm {
-  background: rgba(243, 179, 91, 0.18);
-  border: 1px solid rgba(243, 179, 91, 0.55);
-  color: #3b2a0f;
+  background: #f3b35b;
+  border: 1px solid #d49845;
+  color: #2f1e05;
 }
 
 .muted {
@@ -173,10 +172,10 @@ footer.section {
   display: inline-block;
   padding: 0.35rem 0.7rem;
   border-radius: 10px;
-  background: #e8f0ff;
-  color: #0a1a2f;
+  background: #0f63c2;
+  color: #ffffff;
   font-size: 0.9rem;
-  border: 1px solid #d2def5;
+  border: 1px solid #0d55a8;
 }
 
 .list {

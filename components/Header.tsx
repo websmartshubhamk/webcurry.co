@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { navLinks, services } from "@/lib/content";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const whatsappLink = "https://wa.me/?text=Hello%20Webcurry%20team";
 
@@ -64,6 +65,7 @@ export function Header() {
               </div>
             )}
           </div>
+          <ThemeToggle />
           <a className="btn btn-secondary" href={whatsappLink} target="_blank" rel="noreferrer">
             WhatsApp
           </a>

@@ -14,15 +14,18 @@ export default function Home() {
   return (
     <>
       <section className="section">
-        <div className="container split" style={{ alignItems: "center" }}>
+        <div
+          className="container"
+          style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "2rem", alignItems: "center" }}
+        >
           <div>
-            <span className="pill pill-success">Architecture-First Development</span>
+            <span className="pill pill-success">Clinical-grade polish</span>
             <h1 style={{ fontSize: "2.8rem", marginBottom: "0.75rem" }}>
-              Full-width, conversion-driven sites with mega menus, chatbots, and WhatsApp-ready flows.
+              Crisp, full-width experiences with clear navigation, chat, and WhatsApp handoffs.
             </h1>
             <p className="muted">
-              We blueprint IA, build in Next.js, wire CX (chat, popups, sliders), and ship CRO-ready content systems. No noisy gimmicks—just
-              performance, accessibility, and clear CTAs.
+              We plan IA first, then build in Next.js with mega menus, chatbots, popups, sliders, and tools that feel purposeful—not noisy. Clean,
+              trustworthy visuals inspired by phamilypharma, tuned for performance and CRO.
             </p>
             <div className="flex" style={{ flexWrap: "wrap" }}>
               <Link className="btn btn-primary" href="/contact">
@@ -32,21 +35,36 @@ export default function Home() {
                 WhatsApp hello
               </a>
             </div>
-            <div className="flex" style={{ marginTop: "1rem", flexWrap: "wrap" }}>
-              <span className="badge">Mega menus that convert</span>
-              <span className="badge">Chatbot with human handoff</span>
-              <span className="badge">Interactive tools</span>
+            <div className="flex" style={{ marginTop: "1rem", flexWrap: "wrap", gap: "0.5rem" }}>
+              <span className="badge">Clean white layout</span>
+              <span className="badge">Mega menus & chat</span>
+              <span className="badge">Light/dark ready</span>
             </div>
           </div>
-          <div className="card">
-            <p className="muted">Live CX widgets</p>
-            <ul className="list">
-              <li>Popup with offer (timed) — see lower right after a few seconds.</li>
-              <li>Slider for proof — below.</li>
-              <li>WhatsApp CTA present in header + footer.</li>
-              <li>Mega menu surfacing services.</li>
-            </ul>
-            <p className="muted">Ask for: chatbot provider, CRM/lead routing, analytics/consent preferences.</p>
+          <div
+            className="card"
+            style={{
+              minHeight: "320px",
+              background: "linear-gradient(140deg, #f8fbff, #e7f2ff)",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              gap: "0.75rem",
+              borderColor: "#d8e6f7"
+            }}
+          >
+            <span className="badge" style={{ alignSelf: "flex-start" }}>
+              Preview
+            </span>
+            <h3 style={{ margin: 0 }}>Pharma-clean hero</h3>
+            <p className="muted">
+              White canvas, bright accent, and clear CTAs. Swap in brand imagery (team, lab, product) to mirror the phamilypharma aesthetic.
+            </p>
+            <div className="flex" style={{ flexWrap: "wrap" }}>
+              <div className="pill">Mega menu</div>
+              <div className="pill">Chatbot</div>
+              <div className="pill">WhatsApp</div>
+            </div>
           </div>
         </div>
       </section>
@@ -130,7 +148,7 @@ export default function Home() {
           </div>
         }
       >
-        <div className="card">
+        <div className="card" style={{ background: "linear-gradient(120deg, #f8fbff, #eef4ff)", borderColor: "#d8e6f7" }}>
           <p className="muted">
             Send us your current URL and goals. We return IA recommendations, chat/popup placements, and a delivery plan that favors maintainability
             and speed.

@@ -12,17 +12,31 @@ export function Header() {
   const [megaOpen, setMegaOpen] = useState(false);
 
   return (
-    <header className="glass" style={{ position: "sticky", top: 0, zIndex: 50 }}>
-      <div className="container" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "1rem 0" }}>
-        <Link href="/" style={{ fontWeight: 700, fontSize: "1.1rem", letterSpacing: "0.02em" }}>
-          Webcurry<span style={{ color: "var(--accent)" }}>.co</span>
+    <header style={{ position: "sticky", top: 0, zIndex: 50, background: "var(--panel)", boxShadow: "0 10px 30px rgba(15,23,42,0.08)" }}>
+      <div className="container" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0.5rem 0", fontSize: "0.95rem" }}>
+        <div className="muted" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+          <span>Trusted delivery for modern web</span>
+          <a href={whatsappLink} className="tag" target="_blank" rel="noreferrer">
+            WhatsApp + Quick reply
+          </a>
+        </div>
+        <div style={{ display: "flex", gap: "0.75rem", alignItems: "center" }}>
+          <ThemeToggle />
+          <a className="tag" href="mailto:hello@webcurry.co">
+            hello@webcurry.co
+          </a>
+        </div>
+      </div>
+      <div className="container" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0.75rem 0" }}>
+        <Link href="/" style={{ fontWeight: 700, fontSize: "1.2rem", letterSpacing: "0.01em" }}>
+          Webcurry<span style={{ color: "var(--brand)" }}>.co</span>
         </Link>
         <nav
           aria-label="Primary"
           style={{
             display: "flex",
             alignItems: "center",
-            gap: "1.5rem"
+            gap: "1.25rem"
           }}
         >
           <div className="desktop-nav" style={{ display: "none", gap: "1rem" }}>
@@ -43,7 +57,7 @@ export function Header() {
                   position: "absolute",
                   top: "calc(100% + 0.5rem)",
                   right: 0,
-                  width: "420px",
+                  width: "460px",
                   background: "var(--panel)"
                 }}
               >
@@ -65,7 +79,6 @@ export function Header() {
               </div>
             )}
           </div>
-          <ThemeToggle />
           <a className="btn btn-secondary" href={whatsappLink} target="_blank" rel="noreferrer">
             WhatsApp
           </a>

@@ -13,15 +13,26 @@ export function Header() {
 
   return (
     <header style={{ position: "sticky", top: 0, zIndex: 50, background: "var(--panel)", boxShadow: "0 10px 26px rgba(15,23,42,0.07)" }}>
-      <div className="container" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0.4rem 0", fontSize: "0.95rem" }}>
-        <div className="muted" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+      <div
+        className="container"
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          padding: "0.35rem 0",
+          fontSize: "0.9rem",
+          color: "#4a5b70",
+          borderBottom: "1px solid var(--border)"
+        }}
+      >
+        <div style={{ display: "flex", gap: "0.85rem", flexWrap: "wrap", alignItems: "center" }}>
           <span>Trusted delivery for modern web</span>
-          <a href={whatsappLink} className="tag" target="_blank" rel="noreferrer">
-            WhatsApp + Quick reply
+          <a href={whatsappLink} className="tag" style={{ padding: "0.3rem 0.6rem" }} target="_blank" rel="noreferrer">
+            WhatsApp + quick reply
           </a>
         </div>
-        <div style={{ display: "flex", gap: "0.75rem", alignItems: "center" }}>
-          <a className="tag" href="mailto:hello@webcurry.co">
+        <div style={{ display: "flex", gap: "0.65rem", alignItems: "center" }}>
+          <a className="tag" style={{ color: "#2d3b52", padding: "0.3rem 0.6rem" }} href="mailto:hello@webcurry.co">
             hello@webcurry.co
           </a>
           <ThemeToggle />
